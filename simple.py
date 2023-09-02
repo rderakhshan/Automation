@@ -1,6 +1,4 @@
 import streamlit as st
-import pandas as pd
-import numpy as np
 
-st.title('Uber pickups in NYC')
-s
+x = st.slider('Select a value')
+st.write(x, 'squared is', x * x)
